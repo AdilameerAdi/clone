@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Navigation from '@/components/Navigation'
 import { ChevronRightIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'   // ✅ Import Link
 
 interface SidebarItem {
   id: string
@@ -150,7 +151,8 @@ export default function WikiPage() {
           <nav className="flex mb-6" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/" className="text-gray-400 hover:text-white">🏠</a>
+                {/* ✅ Use Next.js Link instead of <a> */}
+                <Link href="/" className="text-gray-400 hover:text-white">🏠</Link>
               </li>
               <li>
                 <ChevronRightIcon className="w-4 h-4 text-gray-400 mx-2" />

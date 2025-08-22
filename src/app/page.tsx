@@ -95,7 +95,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">Learn More</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game1.jpeg" 
                 alt="Act 8 Preview"
@@ -112,7 +112,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game2.jpeg" 
                 alt="Martial Artist Experience"
@@ -149,7 +149,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">View Rewards</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game3.jpeg" 
                 alt="Loyalty System Rewards"
@@ -166,7 +166,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game4.jpeg" 
                 alt="Pocket Dimensions"
@@ -203,7 +203,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">View Trophies</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game5.jpeg" 
                 alt="Trophy System"
@@ -220,7 +220,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game6.jpeg" 
                 alt="Warp System"
@@ -257,7 +257,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">View Achievements</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game7.jpeg" 
                 alt="Achievement System"
@@ -274,7 +274,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game8.jpeg" 
                 alt="Event Notifications"
@@ -311,7 +311,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">Browse Auctions</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game9.jpeg" 
                 alt="Auction House"
@@ -328,7 +328,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game10.jpeg" 
                 alt="NPC Buffers"
@@ -365,7 +365,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">Join Community</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game11.jpeg" 
                 alt="Community Hub"
@@ -382,7 +382,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game13.jpeg" 
                 alt="Guild System"
@@ -419,7 +419,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">Start Raiding</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game14.jpeg" 
                 alt="End Game Content"
@@ -436,7 +436,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game15.jpeg" 
                 alt="Player Housing System"
@@ -473,7 +473,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">Start Crafting</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game16.jpeg" 
                 alt="Advanced Crafting"
@@ -490,7 +490,7 @@ export default function Home() {
       <section className="bg-section-yellow py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-green-800/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game17.jpeg" 
                 alt="Pet Companion System"
@@ -527,7 +527,7 @@ export default function Home() {
               </p>
               <button className="btn-primary">Enter Arena</button>
             </div>
-            <div className="bg-white/10 rounded-lg p-4">
+            <div>
               <Image 
                 src="/games/game12.jpeg" 
                 alt="PvP Combat System"

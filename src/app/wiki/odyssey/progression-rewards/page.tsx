@@ -81,7 +81,7 @@ export default function OdysseyProgressionRewardsPage() {
                     <h4 className="text-gray-300 font-medium mb-2">Equipment Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
                       <li>• Novice Odyssey Cloak (+5% XP)</li>
-                      <li>• Beginner's Lucky Charm (+3% item drop rate)</li>
+                      <li>• Beginner&apos;s Lucky Charm (+3% item drop rate)</li>
                       <li>• Starter Adventure Pack (consumables)</li>
                     </ul>
                   </div>
@@ -106,8 +106,8 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Equipment Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• Adventurer's Odyssey Armor Set (+10% all stats)</li>
-                      <li>• Wayfinder's Compass (teleportation item)</li>
+                      <li>• Adventurer&apos;s Odyssey Armor Set (+10% all stats)</li>
+                      <li>• Wayfinder&apos;s Compass (teleportation item)</li>
                       <li>• Enhanced Adventure Pack (rare consumables)</li>
                     </ul>
                   </div>
@@ -132,9 +132,9 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Equipment Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• Champion's Odyssey Regalia (+15% all stats)</li>
+                      <li>• Champion&apos;s Odyssey Regalia (+15% all stats)</li>
                       <li>• Legendary Odyssey Weapon (class-specific)</li>
-                      <li>• Champion's Resource Cache (epic materials)</li>
+                      <li>• Champion&apos;s Resource Cache (epic materials)</li>
                     </ul>
                   </div>
                   <div>
@@ -158,7 +158,7 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Equipment Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• Master's Odyssey Vestments (+20% all stats)</li>
+                      <li>• Master&apos;s Odyssey Vestments (+20% all stats)</li>
                       <li>• Mythical Odyssey Artifact (unique abilities)</li>
                       <li>• Master Craftsman Tools (enhanced crafting)</li>
                     </ul>
@@ -168,7 +168,7 @@ export default function OdysseyProgressionRewardsPage() {
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
                       <li>• "Odyssey Master" title</li>
                       <li>• Platinum Odyssey Badge</li>
-                      <li>• Master's Ceremonial Wings</li>
+                      <li>• Master&apos;s Ceremonial Wings</li>
                     </ul>
                   </div>
                 </div>
@@ -224,7 +224,7 @@ export default function OdysseyProgressionRewardsPage() {
               <div className="bg-gray-800 p-4 rounded">
                 <h3 className="text-white font-semibold mb-2 flex items-center">
                   <span className="text-2xl mr-2">🛡️</span>
-                  Guardian's Honor
+                  Guardian&apos;s Honor
                 </h3>
                 <div className="text-gray-400 text-sm space-y-1">
                   <div><strong>Requirement:</strong> Protect 50 team members</div>
@@ -236,7 +236,7 @@ export default function OdysseyProgressionRewardsPage() {
               <div className="bg-gray-800 p-4 rounded">
                 <h3 className="text-white font-semibold mb-2 flex items-center">
                   <span className="text-2xl mr-2">🌟</span>
-                  Explorer's Pride
+                  Explorer&apos;s Pride
                 </h3>
                 <div className="text-gray-400 text-sm space-y-1">
                   <div><strong>Requirement:</strong> Discover 75 hidden areas</div>
@@ -379,7 +379,7 @@ export default function OdysseyProgressionRewardsPage() {
                 <ul className="text-gray-400 text-sm space-y-1 ml-4">
                   <li>• Bloom Walker title</li>
                   <li>• Flower Crown cosmetic</li>
-                  <li>• Nature's Blessing buff (permanent)</li>
+                  <li>• Nature&apos;s Blessing buff (permanent)</li>
                   <li>• Seasonal Spring Mount</li>
                 </ul>
               </div>

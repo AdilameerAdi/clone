@@ -72,7 +72,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Guaranteed Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Antharas' Blood (100% - Quest item)</li>
+                      <li>• Antharas&apos; Blood (100% - Quest item)</li>
                       <li>• Dragon Scale Gaiters (100%)</li>
                       <li>• 5,000,000+ Adena (100%)</li>
                       <li>• Ancient Adena × 50-100 (100%)</li>
@@ -81,7 +81,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Rare Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Antharas' Earring (15%)</li>
+                      <li>• Antharas&apos; Earring (15%)</li>
                       <li>• Dragon Slayer (8%)</li>
                       <li>• Inferno Master (5%)</li>
                       <li>• Arcana Mace (3%)</li>
@@ -97,7 +97,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Guaranteed Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Valakas' Blood (100% - Quest item)</li>
+                      <li>• Valakas&apos; Blood (100% - Quest item)</li>
                       <li>• Dragon Scale Gaiters (100%)</li>
                       <li>• 5,000,000+ Adena (100%)</li>
                       <li>• Ancient Adena × 50-100 (100%)</li>
@@ -106,7 +106,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Rare Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Valakas' Necklace (15%)</li>
+                      <li>• Valakas&apos; Necklace (15%)</li>
                       <li>• Meteor Shower (8%)</li>
                       <li>• Spiritual Eye (5%)</li>
                       <li>• Keshanberk (3%)</li>
@@ -131,9 +131,9 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Rare Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Baium's Ring (20%)</li>
+                      <li>• Baium&apos;s Ring (20%)</li>
                       <li>• Sword of Miracles (10%)</li>
-                      <li>• Baium's Soul Crystal (8%)</li>
+                      <li>• Baium&apos;s Soul Crystal (8%)</li>
                       <li>• Angel Slayer (5%)</li>
                     </ul>
                   </div>
@@ -158,7 +158,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Regular Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Queen Ant's Ring (40%)</li>
+                      <li>• Queen Ant&apos;s Ring (40%)</li>
                       <li>• 500,000+ Adena (100%)</li>
                       <li>• Ancient Adena × 10-20 (100%)</li>
                       <li>• C-grade Equipment (25%)</li>
@@ -170,7 +170,7 @@ export default function BossDropsPage() {
                       <li>• Sealed Majestic Ring (1%)</li>
                       <li>• Sealed Phoenix Ring (0.5%)</li>
                       <li>• Epic Jewelry Fragments (5%)</li>
-                      <li>• Queen's Crown (2%)</li>
+                      <li>• Queen&apos;s Crown (2%)</li>
                     </ul>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Regular Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Core's Ring (40%)</li>
+                      <li>• Core&apos;s Ring (40%)</li>
                       <li>• 750,000+ Adena (100%)</li>
                       <li>• Ancient Adena × 15-25 (100%)</li>
                       <li>• B-grade Materials (30%)</li>
@@ -208,7 +208,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Regular Drops</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Orfen's Earring (40%)</li>
+                      <li>• Orfen&apos;s Earring (40%)</li>
                       <li>• 750,000+ Adena (100%)</li>
                       <li>• Ancient Adena × 15-25 (100%)</li>
                       <li>• Poison Resistance Items (25%)</li>
@@ -249,7 +249,7 @@ export default function BossDropsPage() {
                 </ul>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h4 className="text-white font-semibold mb-2">Santa's Helper</h4>
+                <h4 className="text-white font-semibold mb-2">Santa&apos;s Helper</h4>
                 <ul className="text-gray-300 space-y-1 text-sm">
                   <li>• <strong>Spawn:</strong> December event only</li>
                   <li>• <strong>Location:</strong> Christmas Village</li>
@@ -304,7 +304,7 @@ export default function BossDropsPage() {
                   <div>
                     <p className="text-gray-300 font-medium mb-1">Giran Region</p>
                     <ul className="text-gray-400 text-xs space-y-1">
-                      <li>• Shilen's Messenger (Level 52)</li>
+                      <li>• Shilen&apos;s Messenger (Level 52)</li>
                       <li>• Drops: Dark equipment, cursed items</li>
                       <li>• Spawn: Every 8-16 hours</li>
                     </ul>

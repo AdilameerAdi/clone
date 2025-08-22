@@ -207,7 +207,7 @@ export default function PvPGuidePage() {
                 <h4 className="text-white font-semibold mb-2">1v1 Dueling</h4>
                 <ul className="text-gray-300 space-y-1 text-sm">
                   <li>• <strong>Preparation:</strong> Ensure full buffs and consumables</li>
-                  <li>• <strong>Tactics:</strong> Learn opponent's class weaknesses</li>
+                  <li>• <strong>Tactics:</strong> Learn opponent&apos;s class weaknesses</li>
                   <li>• <strong>Practice:</strong> Use safe dueling zones for training</li>
                   <li>• <strong>Honor System:</strong> Respect agreed-upon rules</li>
                 </ul>

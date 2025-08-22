@@ -41,7 +41,7 @@ export default function StatsPage() {
           <div className="info-box">
             <h2 className="text-2xl font-bold text-white mb-4">Overview</h2>
             <p className="text-gray-300 mb-4">
-              Understanding character statistics is crucial for building effective characters in Olympus. Each stat affects different aspects of your character's performance.
+              Understanding character statistics is crucial for building effective characters in Olympus. Each stat affects different aspects of your character&apos;s performance.
             </p>
           </div>
           

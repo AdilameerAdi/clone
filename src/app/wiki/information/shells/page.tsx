@@ -46,7 +46,7 @@ export default function ShellsPage() {
               <h3 className="text-lg font-semibold text-white">OVERVIEW</h3>
             </div>
             <p className="text-gray-300 mb-4">
-              Shells are special consumable items that provide temporary powerful effects to enhance your character's 
+              Shells are special consumable items that provide temporary powerful effects to enhance your character&apos;s 
               capabilities. They are essential for high-level content and competitive gameplay.
             </p>
             <ul className="space-y-2 text-gray-300">

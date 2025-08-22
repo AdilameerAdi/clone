@@ -47,7 +47,7 @@ export default function SnackProductionPage() {
             </div>
             <p className="text-gray-300 mb-4">
               The Snack Production System allows pets to automatically produce valuable consumable items over time. 
-              Set up your pets to generate snacks, potions, and other useful items while you're online or offline.
+              Set up your pets to generate snacks, potions, and other useful items while you&apos;re online or offline.
             </p>
             <ul className="space-y-2 text-gray-300">
               <li>• Pets automatically produce snacks and consumables</li>
@@ -248,7 +248,7 @@ export default function SnackProductionPage() {
             </div>
             <div className="space-y-3 text-gray-300">
               <p><strong>Command:</strong> <code className="bg-gray-800 px-2 py-1 rounded">.petproduce</code> or <code className="bg-gray-800 px-2 py-1 rounded">.snacks</code></p>
-              <p><strong>Pet Manager:</strong> Right-click your pet and select "Production Settings"</p>
+              <p><strong>Pet Manager:</strong> Right-click your pet and select &quot;Production Settings&quot;</p>
               <p><strong>Collection:</strong> <code className="bg-gray-800 px-2 py-1 rounded">.collect</code> to gather produced items</p>
               <p><strong>Status Check:</strong> <code className="bg-gray-800 px-2 py-1 rounded">.producestatus</code> to view current production</p>
               <p><strong>Auto-Collection:</strong> Enable in pet settings for hands-free operation</p>

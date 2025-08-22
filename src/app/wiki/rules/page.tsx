@@ -120,7 +120,7 @@ export default function RulesPage() {
             <ul className="space-y-2 text-gray-300">
               <li>6.1 You are required to be respectful when communicating with staff members.</li>
               <li>6.2 It is forbidden to argue with the decisions of the staff members.</li>
-              <li>6.3 If you disagree with a staff member's decision, you can appeal it through the proper channels.</li>
+              <li>6.3 If you disagree with a staff member&apos;s decision, you can appeal it through the proper channels.</li>
             </ul>
           </div>
 

@@ -221,7 +221,7 @@ export default function CommunityPonyForestGuidePage() {
                     <ul className="text-xs space-y-1 mt-1">
                       <li>• Sky Temple: Accessible only at dawn (X:298, Y:67)</li>
                       <li>• Wind Chest: On highest platform (X:287, Y:45)</li>
-                      <li>• Eagle's Nest: Hidden cache (X:310, Y:78)</li>
+                      <li>• Eagle&apos;s Nest: Hidden cache (X:310, Y:78)</li>
                       <li>• <strong>Loot:</strong> Wind crystals, flying potions, rare feathers</li>
                     </ul>
                   </div>
@@ -301,7 +301,7 @@ export default function CommunityPonyForestGuidePage() {
               <div className="bg-gray-800 rounded-lg p-4">
                 <h4 className="text-white font-semibold mb-2">Community Coordination</h4>
                 <ul className="text-gray-300 space-y-1 text-sm">
-                  <li>• Join "Pony Forest Hunters" guild channel</li>
+                  <li>• Join &quot;Pony Forest Hunters&quot; guild channel</li>
                   <li>• Share rare spawn locations with trusted players</li>
                   <li>• Coordinate treasure hunting expeditions</li>
                   <li>• Trade location information for mutual benefit</li>
@@ -323,7 +323,7 @@ export default function CommunityPonyForestGuidePage() {
               <p><strong>Equipment:</strong> Bring teleportation scrolls and emergency healing items</p>
               <p><strong>Inventory:</strong> Keep space for rare drops - some items are extremely valuable</p>
               <p><strong>Patience:</strong> Rare spawns require patience; some players camp for hours</p>
-              <p><strong>Community:</strong> Respect other players' hunting spots and share information fairly</p>
+              <p><strong>Community:</strong> Respect other players&apos; hunting spots and share information fairly</p>
               <p><strong>Updates:</strong> This guide is community-maintained - check forums for latest discoveries</p>
             </div>
           </div>
@@ -343,7 +343,7 @@ export default function CommunityPonyForestGuidePage() {
               <ul className="text-gray-300 space-y-1 text-sm">
                 <li>• Discord: <span className="text-blue-400">#pony-forest-guides</span> channel</li>
                 <li>• In-game: PM <span className="text-green-400">MysticRanger_92</span> or <span className="text-yellow-400">ForestExplorer</span></li>
-                <li>• Forum: Post in "Community Guides" section</li>
+                <li>• Forum: Post in &quot;Community Guides&quot; section</li>
                 <li>• Email: guides@olympusserver.com</li>
               </ul>
             </div>

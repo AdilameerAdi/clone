@@ -41,7 +41,7 @@ export default function OdysseyFAQPage() {
           <div className="info-box">
             <h2 className="text-2xl font-bold text-white mb-4">What is Odyssey?</h2>
             <p className="text-gray-300 mb-4">
-              Odyssey is Olympus's premier progressive content system that provides players with structured 
+              Odyssey is Olympus&apos;s premier progressive content system that provides players with structured 
               challenges, engaging storylines, and exclusive rewards. It serves as a comprehensive framework 
               for both new and experienced players to advance their characters and unlock unique content.
             </p>

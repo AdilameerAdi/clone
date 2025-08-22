@@ -1,5 +1,5 @@
 import Navigation from '@/components/Navigation'
-// ❌ Removed: import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -38,9 +38,11 @@ export default function Home() {
             {/* Right Content - DIONISY Logo */}
             <div className="flex justify-center lg:justify-end">
               <div className="bg-white-hero">
-                <img 
+                <Image 
                   src="/logo.png" 
                   alt="DIONISY Logo"
+                  width={320}
+                  height={320}
                   className="w-64 h-64 lg:w-80 lg:h-80 object-contain"
                 />
               </div>

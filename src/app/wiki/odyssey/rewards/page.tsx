@@ -246,9 +246,9 @@ export default function OdysseyRewardsPage() {
                 <h4 className="text-white font-semibold mb-2">Odyssey Exclusive Equipment</h4>
                 <ul className="text-gray-300 space-y-1 text-sm">
                   <li>• <strong>Odyssey Blade:</strong> Unique sword with progressive upgrades</li>
-                  <li>• <strong>Explorer's Armor:</strong> Set bonus increases with Odyssey level</li>
-                  <li>• <strong>Traveler's Accessories:</strong> Experience and drop rate bonuses</li>
-                  <li>• <strong>Adventurer's Cloak:</strong> Provides various utility benefits</li>
+                  <li>• <strong>Explorer&apos;s Armor:</strong> Set bonus increases with Odyssey level</li>
+                  <li>• <strong>Traveler&apos;s Accessories:</strong> Experience and drop rate bonuses</li>
+                  <li>• <strong>Adventurer&apos;s Cloak:</strong> Provides various utility benefits</li>
                 </ul>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
@@ -256,7 +256,7 @@ export default function OdysseyRewardsPage() {
                 <ul className="text-gray-300 space-y-1 text-sm">
                   <li>• <strong>Odyssey Potions:</strong> Enhanced versions of standard consumables</li>
                   <li>• <strong>Journey Scrolls:</strong> Instant completion of certain tasks</li>
-                  <li>• <strong>Explorer's Rations:</strong> Long-lasting buff packages</li>
+                  <li>• <strong>Explorer&apos;s Rations:</strong> Long-lasting buff packages</li>
                   <li>• <strong>Adventure Tokens:</strong> Currency for exclusive shop</li>
                 </ul>
               </div>

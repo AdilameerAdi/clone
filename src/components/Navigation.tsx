@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ChevronDownIcon, MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 interface SearchResult {
@@ -73,9 +74,11 @@ export default function Navigation() {
             {/* Logo */}
             <div className="flex items-center">
               <Link href="/" className="flex items-center space-x-3">
-                <img 
+                <Image 
                   src="/logo.png" 
                   alt="DIONISY Logo"
+                  width={40}
+                  height={40}
                   className="w-10 h-10 object-contain"
                 />
                 <span className="text-xl font-bold gradient-dionisy-text">DIONISY</span>
@@ -243,7 +246,7 @@ export default function Navigation() {
 
                 {searchQuery && searchResults.length === 0 && (
                   <div className="mt-4 text-center text-gray-400">
-                    No results found for "{searchQuery}"
+                    No results found for &quot;{searchQuery}&quot;
                   </div>
                 )}
               </div>

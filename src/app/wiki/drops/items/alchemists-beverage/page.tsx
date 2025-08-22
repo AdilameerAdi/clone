@@ -35,13 +35,13 @@ export default function AlchemistsBeveragePage() {
             <li>
               <ChevronRightIcon className="w-4 h-4 text-gray-400 mx-2" />
             </li>
-            <li className="text-blue-400 font-medium">Alchemist's Beverage</li>
+            <li className="text-blue-400 font-medium">Alchemist&apos;s Beverage</li>
           </ol>
         </nav>
         
         {/* Content */}
         <div className="max-w-4xl">
-          <h1 className="text-4xl font-bold text-white mb-8">Alchemist's Beverage</h1>
+          <h1 className="text-4xl font-bold text-white mb-8">Alchemist&apos;s Beverage</h1>
           
           {/* Item Overview */}
           <div className="info-box">
@@ -58,7 +58,7 @@ export default function AlchemistsBeveragePage() {
                     <span className="text-2xl">🍺</span>
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-purple-400">Alchemist's Beverage</h4>
+                    <h4 className="text-xl font-bold text-purple-400">Alchemist&apos;s Beverage</h4>
                     <p className="text-gray-400">Epic Consumable</p>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ export default function AlchemistsBeveragePage() {
                 <h4 className="text-white font-semibold mb-2">Alternative Sources</h4>
                 <ul className="text-gray-300 space-y-1 text-sm">
                   <li>• <strong>Alchemy Crafting:</strong> Crafted by master alchemists (Level 8+ Alchemy)</li>
-                  <li>• <strong>Quest Rewards:</strong> "The Master's Secret" questline final reward</li>
+                  <li>• <strong>Quest Rewards:</strong> &quot;The Master&apos;s Secret&quot; questline final reward</li>
                   <li>• <strong>Event Prizes:</strong> Occasionally available during Alchemy Festival</li>
                   <li>• <strong>Mystery Boxes:</strong> 0.8% chance from Magical Mystery Boxes</li>
                   <li>• <strong>Guild Rewards:</strong> High-level guild contribution rewards</li>
@@ -231,7 +231,7 @@ export default function AlchemistsBeveragePage() {
                       <li>• <span className="text-orange-400">Phoenix Tear</span> × 1</li>
                       <li>• <span className="text-purple-400">Void Essence</span> × 1</li>
                       <li>• <span className="text-cyan-400">Moonstone Dust</span> × 2</li>
-                      <li>• <span className="text-pink-400">Dragon's Breath</span> × 1</li>
+                      <li>• <span className="text-pink-400">Dragon&apos;s Breath</span> × 1</li>
                     </ul>
                   </div>
                 </div>
@@ -240,8 +240,8 @@ export default function AlchemistsBeveragePage() {
                 <h4 className="text-white font-semibold mb-2">Crafting Requirements</h4>
                 <ul className="text-gray-300 space-y-1 text-sm">
                   <li>• <strong>Alchemy Skill:</strong> Level 80+ required</li>
-                  <li>• <strong>Equipment:</strong> Master Alchemist's Cauldron</li>
-                  <li>• <strong>Success Rate:</strong> 65% (85% with Master's Tools)</li>
+                  <li>• <strong>Equipment:</strong> Master Alchemist&apos;s Cauldron</li>
+                  <li>• <strong>Success Rate:</strong> 65% (85% with Master&apos;s Tools)</li>
                   <li>• <strong>Crafting Time:</strong> 45 minutes real-time</li>
                   <li>• <strong>Location:</strong> Alchemy Laboratory or Guild Alchemy Room</li>
                   <li>• <strong>Special:</strong> Must be crafted during full moon for optimal effects</li>
@@ -340,10 +340,10 @@ export default function AlchemistsBeveragePage() {
               <div className="bg-gray-800 rounded-lg p-4">
                 <h4 className="text-white font-semibold mb-2">Similar Beverages</h4>
                 <ul className="text-gray-300 space-y-1 text-sm">
-                  <li>• <Link href="/wiki/drops/items/warriors-brew" className="text-blue-400 hover:text-blue-300">Warrior's Brew</Link> (Physical combat focus)</li>
-                  <li>• <Link href="/wiki/drops/items/mages-elixir" className="text-blue-400 hover:text-blue-300">Mage's Elixir</Link> (Magical damage boost)</li>
-                  <li>• <Link href="/wiki/drops/items/assassins-poison" className="text-blue-400 hover:text-blue-300">Assassin's Tonic</Link> (Critical hit focus)</li>
-                  <li>• <Link href="/wiki/drops/items/guardians-draught" className="text-blue-400 hover:text-blue-300">Guardian's Draught</Link> (Defensive bonuses)</li>
+                  <li>• <Link href="/wiki/drops/items/warriors-brew" className="text-blue-400 hover:text-blue-300">Warrior&apos;s Brew</Link> (Physical combat focus)</li>
+                  <li>• <Link href="/wiki/drops/items/mages-elixir" className="text-blue-400 hover:text-blue-300">Mage&apos;s Elixir</Link> (Magical damage boost)</li>
+                  <li>• <Link href="/wiki/drops/items/assassins-poison" className="text-blue-400 hover:text-blue-300">Assassin&apos;s Tonic</Link> (Critical hit focus)</li>
+                  <li>• <Link href="/wiki/drops/items/guardians-draught" className="text-blue-400 hover:text-blue-300">Guardian&apos;s Draught</Link> (Defensive bonuses)</li>
                 </ul>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">

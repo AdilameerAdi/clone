@@ -1,6 +1,8 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
+  "/wiki/page": "app/wiki/page.js",
   "/wiki/rules/page": "app/wiki/rules/page.js",
-  "/wiki/page": "app/wiki/page.js"
+  "/wiki/bug-reports/page": "app/wiki/bug-reports/page.js",
+  "/wiki/odyssey/faq/page": "app/wiki/odyssey/faq/page.js",
+  "/wiki/custom-features/trophy-system/page": "app/wiki/custom-features/trophy-system/page.js"
 }

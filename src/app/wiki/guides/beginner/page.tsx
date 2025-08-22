@@ -219,10 +219,10 @@ export default function BeginnerGuidePage() {
                 <div className="w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center mr-3">
                   <span className="text-white text-sm font-bold">🚀</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white">WHAT'S NEXT?</h3>
+                <h3 className="text-lg font-semibold text-white">WHAT&apos;S NEXT?</h3>
               </div>
               <p className="text-gray-300 mb-4">
-                Once you've mastered the basics, consider exploring:
+                Once you&apos;ve mastered the basics, consider exploring:
               </p>
               <ul className="space-y-2 text-gray-300">
                 <li>• <Link href="/wiki/guides/advanced" className="text-blue-400 hover:text-blue-300">Advanced Guide</Link> - For experienced players</li>

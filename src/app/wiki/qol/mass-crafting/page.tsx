@@ -71,7 +71,7 @@ export default function MassCraftingPage() {
                   <h4 className="text-white font-semibold mb-2">Step 1: Access the Interface</h4>
                   <ul className="text-gray-300 space-y-1">
                     <li>• Open any crafting station (Blacksmith, Tailor, etc.)</li>
-                    <li>• Click the "Mass Craft" button in the crafting window</li>
+                    <li>• Click the &quot;Mass Craft&quot; button in the crafting window</li>
                     <li>• Use the keyboard shortcut Ctrl+M from any crafting interface</li>
                   </ul>
                 </div>
@@ -88,7 +88,7 @@ export default function MassCraftingPage() {
                   <ul className="text-gray-300 space-y-1">
                     <li>• Check material requirements and availability</li>
                     <li>• Review estimated crafting time and costs</li>
-                    <li>• Click "Start Mass Crafting" to begin the process</li>
+                    <li>• Click &quot;Start Mass Crafting&quot; to begin the process</li>
                   </ul>
                 </div>
               </div>

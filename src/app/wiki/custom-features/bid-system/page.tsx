@@ -62,7 +62,7 @@ export default function BidSystemPage() {
                   <li>• Select the item from your inventory</li>
                   <li>• Set minimum bid amount</li>
                   <li>• Choose auction duration (1-24 hours)</li>
-                  <li>• Optionally set a "Buy Now" price</li>
+                  <li>• Optionally set a &quot;Buy Now&quot; price</li>
                 </ul>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
@@ -94,7 +94,7 @@ export default function BidSystemPage() {
                   <li>• Enter your bid amount (must exceed current highest bid)</li>
                   <li>• Confirm bid placement and escrow gold</li>
                   <li>• Get outbid notifications if someone bids higher</li>
-                  <li>• Use "Buy Now" option for instant purchase</li>
+                  <li>• Use &quot;Buy Now&quot; option for instant purchase</li>
                 </ul>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">

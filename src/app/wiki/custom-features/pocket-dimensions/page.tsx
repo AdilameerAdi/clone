@@ -71,7 +71,7 @@ export default function PocketDimensionsPage() {
                   <h4 className="text-white font-semibold mb-2">Requirements</h4>
                   <ul className="space-y-1">
                     <li>• Level 50+ character</li>
-                    <li>• Complete the 'Dimensional Explorer' quest</li>
+                    <li>• Complete the &apos;Dimensional Explorer&apos; quest</li>
                     <li>• Purchase a Dimension Key from the NPC shop (500,000 gold)</li>
                   </ul>
                 </div>
@@ -80,7 +80,7 @@ export default function PocketDimensionsPage() {
                   <ul className="space-y-1">
                     <li>• Use Dimension Portal stones (craftable or purchasable)</li>
                     <li>• Access through Dimensional Gates in major cities</li>
-                    <li>• Use the '/dimension' command from anywhere</li>
+                    <li>• Use the &apos;/dimension&apos; command from anywhere</li>
                   </ul>
                 </div>
               </div>

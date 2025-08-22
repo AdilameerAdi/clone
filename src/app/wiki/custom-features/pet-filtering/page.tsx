@@ -43,7 +43,7 @@ export default function PetFilteringPage() {
             </p>
             <ul className="space-y-2 text-gray-300">
               <li>• Filter pets by type, level, or rarity</li>
-              <li>• Hide specific players' pets selectively</li>
+              <li>• Hide specific players&apos; pets selectively</li>
               <li>• Improve client performance in crowded areas</li>
               <li>• Maintain visibility of important or rare pets</li>
             </ul>

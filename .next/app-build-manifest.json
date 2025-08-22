@@ -25,6 +25,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/wiki/rules/page.js"
+    ],
+    "/wiki/bug-reports/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wiki/bug-reports/page.js"
+    ],
+    "/wiki/odyssey/faq/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wiki/odyssey/faq/page.js"
+    ],
+    "/wiki/custom-features/trophy-system/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wiki/custom-features/trophy-system/page.js"
     ]
   }
 }

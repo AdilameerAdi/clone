@@ -88,7 +88,7 @@ export default function OdysseyAchievementsPage() {
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
                       <li>• Unity Badge for all participants</li>
                       <li>• +20% XP boost for 7 days</li>
-                      <li>• Exclusive "World Uniter" title</li>
+                      <li>• Exclusive &quot;World Uniter&quot; title</li>
                       <li>• Global Unity Monument in main city</li>
                     </ul>
                   </div>

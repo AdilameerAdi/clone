@@ -1,1 +1,6 @@
-{}
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/wiki/rules/page": "app/wiki/rules/page.js",
+  "/wiki/page": "app/wiki/page.js"
+}

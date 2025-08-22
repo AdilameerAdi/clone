@@ -25,7 +25,7 @@ const changelogPosts: ChangelogPost[] = [
     id: '1',
     title: 'Changelog - 19/05/2025',
     date: 'May 19, 2025',
-    readTime: 'One min read',
+    readTime: 'Three min read',
     author: {
       name: 'Pumba98',
       role: 'Administrator',
@@ -40,18 +40,38 @@ const changelogPosts: ChangelogPost[] = [
             'Chat height is now saved between gaming sessions',
             'Bazaar search cooldown is now 1 second instead of 3 seconds',
             'Costume & Card inventories are now scrollable',
-            'Inventories within (K) are now scrollable'
+            'Inventories within (K) are now scrollable',
+            'Added new visual effects for legendary item drops',
+            'Improved minimap rendering performance',
+            'Fixed issue with pet following behavior in crowded areas'
+          ]
+        },
+        {
+          title: 'Server',
+          items: [
+            'Implemented new anti-duplication measures',
+            'Enhanced server security protocols',
+            'Optimized database queries for better performance',
+            'Added new logging system for better bug tracking'
+          ]
+        },
+        {
+          title: 'Events',
+          items: [
+            'Spring Festival event now live until May 31st',
+            'Added new seasonal costumes and rewards',
+            'Double XP weekend scheduled for May 25-26'
           ]
         }
       ]
     },
-    tags: ['changelog', 'changes']
+    tags: ['changelog', 'client', 'server', 'events']
   },
   {
     id: '2',
     title: 'Changelog - 11/05/2025',
     date: 'May 11, 2025',
-    readTime: 'Two min read',
+    readTime: 'Four min read',
     author: {
       name: 'Pumba98',
       role: 'Administrator',
@@ -64,8 +84,11 @@ const changelogPosts: ChangelogPost[] = [
           items: [
             'Fixed issue with pet experience calculation',
             'Improved server stability during peak hours',
-            'Updated anti-cheat system',
-            'Fixed rare crash when entering certain maps'
+            'Updated anti-cheat system with new detection methods',
+            'Fixed rare crash when entering certain maps',
+            'Optimized memory usage for better performance',
+            'Enhanced guild system with new features',
+            'Fixed issue with party experience distribution'
           ]
         },
         {
@@ -73,12 +96,103 @@ const changelogPosts: ChangelogPost[] = [
           items: [
             'Updated UI for better user experience',
             'Fixed memory leak in inventory system',
-            'Improved loading times for character selection'
+            'Improved loading times for character selection',
+            'Added new sound effects for combat actions',
+            'Enhanced graphics settings menu',
+            'Fixed issue with fullscreen mode on certain resolutions'
+          ]
+        },
+        {
+          title: 'Balance Changes',
+          items: [
+            'Adjusted damage values for Swordsman class skills',
+            'Increased mana regeneration rate for Mage class',
+            'Rebalanced drop rates for rare items',
+            'Modified PvP damage calculations for better balance'
           ]
         }
       ]
     },
-    tags: ['changelog', 'bugfix', 'improvements']
+    tags: ['changelog', 'bugfix', 'improvements', 'balance']
+  },
+  {
+    id: '3',
+    title: 'Changelog - 27/04/2025',
+    date: 'April 27, 2025',
+    readTime: 'Two min read',
+    author: {
+      name: 'TechWizard',
+      role: 'Developer',
+      avatar: '/avatar-placeholder.png'
+    },
+    content: {
+      sections: [
+        {
+          title: 'New Features',
+          items: [
+            'Introduced Achievement System with 50+ achievements',
+            'Added Daily Quest system for additional rewards',
+            'Implemented new guild ranking system',
+            'Added support for custom keybindings'
+          ]
+        },
+        {
+          title: 'Bug Fixes',
+          items: [
+            'Fixed issue with bazaar item sorting',
+            'Resolved problem with pet AI in certain situations',
+            'Fixed crash when using certain skills in PvP',
+            'Corrected display issues with some costume effects'
+          ]
+        }
+      ]
+    },
+    tags: ['changelog', 'features', 'bugfix']
+  },
+  {
+    id: '4',
+    title: 'Changelog - 13/04/2025',
+    date: 'April 13, 2025',
+    readTime: 'Five min read',
+    author: {
+      name: 'Pumba98',
+      role: 'Administrator',
+      avatar: '/avatar-placeholder.png'
+    },
+    content: {
+      sections: [
+        {
+          title: 'Major Update: Odyssey Season 2',
+          items: [
+            'Launched Odyssey Season 2: "Legends Awakening"',
+            'Added 5 new exclusive maps for Odyssey players',
+            'Introduced Legendary Awakening system',
+            'New seasonal rewards and exclusive items',
+            'Enhanced competitive leaderboards',
+            'Special Odyssey-only events and challenges'
+          ]
+        },
+        {
+          title: 'Quality of Life',
+          items: [
+            'Improved auto-pickup system with better filtering',
+            'Enhanced party management interface',
+            'Added quick-travel system between major cities',
+            'Implemented smart inventory sorting options'
+          ]
+        },
+        {
+          title: 'Performance',
+          items: [
+            'Reduced client memory usage by 15%',
+            'Improved server response times',
+            'Optimized rendering for better FPS',
+            'Enhanced network stability'
+          ]
+        }
+      ]
+    },
+    tags: ['changelog', 'odyssey', 'major-update', 'performance']
   }
 ]
 
@@ -87,7 +201,9 @@ const recentPosts = [
   'Changelog - 11/05/2025',
   'Changelog - 27/04/2025',
   'Changelog - 13/04/2025',
-  'Changelog - 06/04/2025'
+  'Changelog - 06/04/2025',
+  'Changelog - 29/03/2025',
+  'Changelog - 15/03/2025'
 ]
 
 export default function ChangelogPage() {

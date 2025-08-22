@@ -36,34 +36,310 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
-// Validate ..\..\src\app\changelog\page.tsx
+// Validate ../../src/app/changelog/page.tsx
 {
-  const handler = {} as typeof import("..\\..\\src\\app\\changelog\\page.js")
+  const handler = {} as typeof import("../../src/app/changelog/page.js")
   handler satisfies AppPageConfig<"/changelog">
 }
 
-// Validate ..\..\src\app\page.tsx
+// Validate ../../src/app/page.tsx
 {
-  const handler = {} as typeof import("..\\..\\src\\app\\page.js")
+  const handler = {} as typeof import("../../src/app/page.js")
   handler satisfies AppPageConfig<"/">
 }
 
-// Validate ..\..\src\app\shop-rotations\page.tsx
+// Validate ../../src/app/shop-rotations/page.tsx
 {
-  const handler = {} as typeof import("..\\..\\src\\app\\shop-rotations\\page.js")
+  const handler = {} as typeof import("../../src/app/shop-rotations/page.js")
   handler satisfies AppPageConfig<"/shop-rotations">
 }
 
-// Validate ..\..\src\app\staff\page.tsx
+// Validate ../../src/app/staff/page.tsx
 {
-  const handler = {} as typeof import("..\\..\\src\\app\\staff\\page.js")
+  const handler = {} as typeof import("../../src/app/staff/page.js")
   handler satisfies AppPageConfig<"/staff">
 }
 
-// Validate ..\..\src\app\wiki\page.tsx
+// Validate ../../src/app/wiki/bug-reports/page.tsx
 {
-  const handler = {} as typeof import("..\\..\\src\\app\\wiki\\page.js")
+  const handler = {} as typeof import("../../src/app/wiki/bug-reports/page.js")
+  handler satisfies AppPageConfig<"/wiki/bug-reports">
+}
+
+// Validate ../../src/app/wiki/community-guides/community-pony-forest-guide/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/community-guides/community-pony-forest-guide/page.js")
+  handler satisfies AppPageConfig<"/wiki/community-guides/community-pony-forest-guide">
+}
+
+// Validate ../../src/app/wiki/custom-features/achievements/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/achievements/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/achievements">
+}
+
+// Validate ../../src/app/wiki/custom-features/bid-system/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/bid-system/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/bid-system">
+}
+
+// Validate ../../src/app/wiki/custom-features/event-notification-system/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/event-notification-system/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/event-notification-system">
+}
+
+// Validate ../../src/app/wiki/custom-features/list/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/list/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/list">
+}
+
+// Validate ../../src/app/wiki/custom-features/loyalty-system/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/loyalty-system/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/loyalty-system">
+}
+
+// Validate ../../src/app/wiki/custom-features/npc-buffers/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/npc-buffers/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/npc-buffers">
+}
+
+// Validate ../../src/app/wiki/custom-features/option-window/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/option-window/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/option-window">
+}
+
+// Validate ../../src/app/wiki/custom-features/overview/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/overview/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/overview">
+}
+
+// Validate ../../src/app/wiki/custom-features/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features">
+}
+
+// Validate ../../src/app/wiki/custom-features/pet-filtering/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/pet-filtering/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/pet-filtering">
+}
+
+// Validate ../../src/app/wiki/custom-features/pet-upgrading/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/pet-upgrading/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/pet-upgrading">
+}
+
+// Validate ../../src/app/wiki/custom-features/pocket-dimensions/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/pocket-dimensions/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/pocket-dimensions">
+}
+
+// Validate ../../src/app/wiki/custom-features/raid-report/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/raid-report/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/raid-report">
+}
+
+// Validate ../../src/app/wiki/custom-features/raid-reports/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/raid-reports/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/raid-reports">
+}
+
+// Validate ../../src/app/wiki/custom-features/trophy-system/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/trophy-system/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/trophy-system">
+}
+
+// Validate ../../src/app/wiki/custom-features/warp-system/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/warp-system/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/warp-system">
+}
+
+// Validate ../../src/app/wiki/custom-features/wings-swapper/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/custom-features/wings-swapper/page.js")
+  handler satisfies AppPageConfig<"/wiki/custom-features/wings-swapper">
+}
+
+// Validate ../../src/app/wiki/drops/bosses/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/drops/bosses/page.js")
+  handler satisfies AppPageConfig<"/wiki/drops/bosses">
+}
+
+// Validate ../../src/app/wiki/drops/items/alchemists-beverage/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/drops/items/alchemists-beverage/page.js")
+  handler satisfies AppPageConfig<"/wiki/drops/items/alchemists-beverage">
+}
+
+// Validate ../../src/app/wiki/drops/items/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/drops/items/page.js")
+  handler satisfies AppPageConfig<"/wiki/drops/items">
+}
+
+// Validate ../../src/app/wiki/drops/locations/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/drops/locations/page.js")
+  handler satisfies AppPageConfig<"/wiki/drops/locations">
+}
+
+// Validate ../../src/app/wiki/drops/rates/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/drops/rates/page.js")
+  handler satisfies AppPageConfig<"/wiki/drops/rates">
+}
+
+// Validate ../../src/app/wiki/guides/beginner/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/guides/beginner/page.js")
+  handler satisfies AppPageConfig<"/wiki/guides/beginner">
+}
+
+// Validate ../../src/app/wiki/guides/farming/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/guides/farming/page.js")
+  handler satisfies AppPageConfig<"/wiki/guides/farming">
+}
+
+// Validate ../../src/app/wiki/guides/leveling/combat1-90/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/guides/leveling/combat1-90/page.js")
+  handler satisfies AppPageConfig<"/wiki/guides/leveling/combat1-90">
+}
+
+// Validate ../../src/app/wiki/guides/leveling/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/guides/leveling/page.js")
+  handler satisfies AppPageConfig<"/wiki/guides/leveling">
+}
+
+// Validate ../../src/app/wiki/guides/pvp/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/guides/pvp/page.js")
+  handler satisfies AppPageConfig<"/wiki/guides/pvp">
+}
+
+// Validate ../../src/app/wiki/information/classes/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/information/classes/page.js")
+  handler satisfies AppPageConfig<"/wiki/information/classes">
+}
+
+// Validate ../../src/app/wiki/information/currency/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/information/currency/page.js")
+  handler satisfies AppPageConfig<"/wiki/information/currency">
+}
+
+// Validate ../../src/app/wiki/information/shells/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/information/shells/page.js")
+  handler satisfies AppPageConfig<"/wiki/information/shells">
+}
+
+// Validate ../../src/app/wiki/information/specialists/cards/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/information/specialists/cards/page.js")
+  handler satisfies AppPageConfig<"/wiki/information/specialists/cards">
+}
+
+// Validate ../../src/app/wiki/information/stats/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/information/stats/page.js")
+  handler satisfies AppPageConfig<"/wiki/information/stats">
+}
+
+// Validate ../../src/app/wiki/odyssey/achievements/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/odyssey/achievements/page.js")
+  handler satisfies AppPageConfig<"/wiki/odyssey/achievements">
+}
+
+// Validate ../../src/app/wiki/odyssey/calendar/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/odyssey/calendar/page.js")
+  handler satisfies AppPageConfig<"/wiki/odyssey/calendar">
+}
+
+// Validate ../../src/app/wiki/odyssey/faq/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/odyssey/faq/page.js")
+  handler satisfies AppPageConfig<"/wiki/odyssey/faq">
+}
+
+// Validate ../../src/app/wiki/odyssey/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/odyssey/page.js")
+  handler satisfies AppPageConfig<"/wiki/odyssey">
+}
+
+// Validate ../../src/app/wiki/odyssey/progression-rewards/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/odyssey/progression-rewards/page.js")
+  handler satisfies AppPageConfig<"/wiki/odyssey/progression-rewards">
+}
+
+// Validate ../../src/app/wiki/odyssey/quests/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/odyssey/quests/page.js")
+  handler satisfies AppPageConfig<"/wiki/odyssey/quests">
+}
+
+// Validate ../../src/app/wiki/odyssey/rewards/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/odyssey/rewards/page.js")
+  handler satisfies AppPageConfig<"/wiki/odyssey/rewards">
+}
+
+// Validate ../../src/app/wiki/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/page.js")
   handler satisfies AppPageConfig<"/wiki">
+}
+
+// Validate ../../src/app/wiki/qol/mass-crafting/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/qol/mass-crafting/page.js")
+  handler satisfies AppPageConfig<"/wiki/qol/mass-crafting">
+}
+
+// Validate ../../src/app/wiki/qol/mass-refiners/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/qol/mass-refiners/page.js")
+  handler satisfies AppPageConfig<"/wiki/qol/mass-refiners">
+}
+
+// Validate ../../src/app/wiki/qol/npc-shops/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/qol/npc-shops/page.js")
+  handler satisfies AppPageConfig<"/wiki/qol/npc-shops">
+}
+
+// Validate ../../src/app/wiki/qol/snack-production/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/qol/snack-production/page.js")
+  handler satisfies AppPageConfig<"/wiki/qol/snack-production">
+}
+
+// Validate ../../src/app/wiki/rules/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/rules/page.js")
+  handler satisfies AppPageConfig<"/wiki/rules">
 }
 
 
@@ -72,8 +348,14 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 
 
 
-// Validate ..\..\src\app\layout.tsx
+// Validate ../../src/app/layout.tsx
 {
-  const handler = {} as typeof import("..\\..\\src\\app\\layout.js")
+  const handler = {} as typeof import("../../src/app/layout.js")
   handler satisfies LayoutConfig<"/">
+}
+
+// Validate ../../src/app/wiki/layout.tsx
+{
+  const handler = {} as typeof import("../../src/app/wiki/layout.js")
+  handler satisfies LayoutConfig<"/wiki">
 }

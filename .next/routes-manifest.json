@@ -1,1 +1,359 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/changelog",
+      "regex": "^/changelog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/changelog(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/shop-rotations",
+      "regex": "^/shop\\-rotations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shop\\-rotations(?:/)?$"
+    },
+    {
+      "page": "/staff",
+      "regex": "^/staff(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/staff(?:/)?$"
+    },
+    {
+      "page": "/wiki",
+      "regex": "^/wiki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki(?:/)?$"
+    },
+    {
+      "page": "/wiki/bug-reports",
+      "regex": "^/wiki/bug\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/bug\\-reports(?:/)?$"
+    },
+    {
+      "page": "/wiki/community-guides/community-pony-forest-guide",
+      "regex": "^/wiki/community\\-guides/community\\-pony\\-forest\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/community\\-guides/community\\-pony\\-forest\\-guide(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features",
+      "regex": "^/wiki/custom\\-features(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/achievements",
+      "regex": "^/wiki/custom\\-features/achievements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/achievements(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/bid-system",
+      "regex": "^/wiki/custom\\-features/bid\\-system(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/bid\\-system(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/event-notification-system",
+      "regex": "^/wiki/custom\\-features/event\\-notification\\-system(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/event\\-notification\\-system(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/list",
+      "regex": "^/wiki/custom\\-features/list(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/list(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/loyalty-system",
+      "regex": "^/wiki/custom\\-features/loyalty\\-system(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/loyalty\\-system(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/npc-buffers",
+      "regex": "^/wiki/custom\\-features/npc\\-buffers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/npc\\-buffers(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/option-window",
+      "regex": "^/wiki/custom\\-features/option\\-window(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/option\\-window(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/overview",
+      "regex": "^/wiki/custom\\-features/overview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/overview(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/pet-filtering",
+      "regex": "^/wiki/custom\\-features/pet\\-filtering(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/pet\\-filtering(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/pet-upgrading",
+      "regex": "^/wiki/custom\\-features/pet\\-upgrading(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/pet\\-upgrading(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/pocket-dimensions",
+      "regex": "^/wiki/custom\\-features/pocket\\-dimensions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/pocket\\-dimensions(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/raid-report",
+      "regex": "^/wiki/custom\\-features/raid\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/raid\\-report(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/raid-reports",
+      "regex": "^/wiki/custom\\-features/raid\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/raid\\-reports(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/trophy-system",
+      "regex": "^/wiki/custom\\-features/trophy\\-system(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/trophy\\-system(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/warp-system",
+      "regex": "^/wiki/custom\\-features/warp\\-system(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/warp\\-system(?:/)?$"
+    },
+    {
+      "page": "/wiki/custom-features/wings-swapper",
+      "regex": "^/wiki/custom\\-features/wings\\-swapper(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/custom\\-features/wings\\-swapper(?:/)?$"
+    },
+    {
+      "page": "/wiki/drops/bosses",
+      "regex": "^/wiki/drops/bosses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/drops/bosses(?:/)?$"
+    },
+    {
+      "page": "/wiki/drops/items",
+      "regex": "^/wiki/drops/items(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/drops/items(?:/)?$"
+    },
+    {
+      "page": "/wiki/drops/items/alchemists-beverage",
+      "regex": "^/wiki/drops/items/alchemists\\-beverage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/drops/items/alchemists\\-beverage(?:/)?$"
+    },
+    {
+      "page": "/wiki/drops/locations",
+      "regex": "^/wiki/drops/locations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/drops/locations(?:/)?$"
+    },
+    {
+      "page": "/wiki/drops/rates",
+      "regex": "^/wiki/drops/rates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/drops/rates(?:/)?$"
+    },
+    {
+      "page": "/wiki/guides/beginner",
+      "regex": "^/wiki/guides/beginner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/guides/beginner(?:/)?$"
+    },
+    {
+      "page": "/wiki/guides/farming",
+      "regex": "^/wiki/guides/farming(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/guides/farming(?:/)?$"
+    },
+    {
+      "page": "/wiki/guides/leveling",
+      "regex": "^/wiki/guides/leveling(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/guides/leveling(?:/)?$"
+    },
+    {
+      "page": "/wiki/guides/leveling/combat1-90",
+      "regex": "^/wiki/guides/leveling/combat1\\-90(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/guides/leveling/combat1\\-90(?:/)?$"
+    },
+    {
+      "page": "/wiki/guides/pvp",
+      "regex": "^/wiki/guides/pvp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/guides/pvp(?:/)?$"
+    },
+    {
+      "page": "/wiki/information/classes",
+      "regex": "^/wiki/information/classes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/information/classes(?:/)?$"
+    },
+    {
+      "page": "/wiki/information/currency",
+      "regex": "^/wiki/information/currency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/information/currency(?:/)?$"
+    },
+    {
+      "page": "/wiki/information/shells",
+      "regex": "^/wiki/information/shells(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/information/shells(?:/)?$"
+    },
+    {
+      "page": "/wiki/information/specialists/cards",
+      "regex": "^/wiki/information/specialists/cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/information/specialists/cards(?:/)?$"
+    },
+    {
+      "page": "/wiki/information/stats",
+      "regex": "^/wiki/information/stats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/information/stats(?:/)?$"
+    },
+    {
+      "page": "/wiki/odyssey",
+      "regex": "^/wiki/odyssey(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/odyssey(?:/)?$"
+    },
+    {
+      "page": "/wiki/odyssey/achievements",
+      "regex": "^/wiki/odyssey/achievements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/odyssey/achievements(?:/)?$"
+    },
+    {
+      "page": "/wiki/odyssey/calendar",
+      "regex": "^/wiki/odyssey/calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/odyssey/calendar(?:/)?$"
+    },
+    {
+      "page": "/wiki/odyssey/faq",
+      "regex": "^/wiki/odyssey/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/odyssey/faq(?:/)?$"
+    },
+    {
+      "page": "/wiki/odyssey/progression-rewards",
+      "regex": "^/wiki/odyssey/progression\\-rewards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/odyssey/progression\\-rewards(?:/)?$"
+    },
+    {
+      "page": "/wiki/odyssey/quests",
+      "regex": "^/wiki/odyssey/quests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/odyssey/quests(?:/)?$"
+    },
+    {
+      "page": "/wiki/odyssey/rewards",
+      "regex": "^/wiki/odyssey/rewards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/odyssey/rewards(?:/)?$"
+    },
+    {
+      "page": "/wiki/qol/mass-crafting",
+      "regex": "^/wiki/qol/mass\\-crafting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/qol/mass\\-crafting(?:/)?$"
+    },
+    {
+      "page": "/wiki/qol/mass-refiners",
+      "regex": "^/wiki/qol/mass\\-refiners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/qol/mass\\-refiners(?:/)?$"
+    },
+    {
+      "page": "/wiki/qol/npc-shops",
+      "regex": "^/wiki/qol/npc\\-shops(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/qol/npc\\-shops(?:/)?$"
+    },
+    {
+      "page": "/wiki/qol/snack-production",
+      "regex": "^/wiki/qol/snack\\-production(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/qol/snack\\-production(?:/)?$"
+    },
+    {
+      "page": "/wiki/rules",
+      "regex": "^/wiki/rules(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wiki/rules(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

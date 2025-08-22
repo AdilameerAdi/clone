@@ -12,6 +12,10 @@ interface SearchResult {
   description: string
 }
 
+interface NavigationProps {
+  onAdminClick?: () => void
+}
+
 const searchData: SearchResult[] = [
   { title: 'Game Rules', url: '/wiki', type: 'page', description: 'Server rules and guidelines' },
   { title: 'Bug Reports', url: '/wiki/bug-reports', type: 'page', description: 'How to report bugs and known issues' },
@@ -23,7 +27,7 @@ const searchData: SearchResult[] = [
   { title: 'Staff Members', url: '/staff', type: 'page', description: 'Meet the team' },
 ]
 
-export default function Navigation() {
+export default function Navigation({ onAdminClick }: NavigationProps = {}) {
   const [isLinksOpen, setIsLinksOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
@@ -143,8 +147,8 @@ export default function Navigation() {
               </div>
             </div>
 
-            {/* Search */}
-            <div className="hidden md:block">
+            {/* Search & Admin */}
+            <div className="hidden md:flex items-center space-x-4">
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" />
@@ -160,6 +164,16 @@ export default function Navigation() {
                   <kbd className="bg-gray-700 text-gray-300 text-xs px-2 py-1 rounded">⌘K</kbd>
                 </div>
               </div>
+              
+              {/* Admin Button */}
+              {onAdminClick && (
+                <button
+                  onClick={onAdminClick}
+                  className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors font-medium"
+                >
+                  Admin
+                </button>
+              )}
             </div>
 
             {/* Mobile menu button */}
@@ -187,6 +201,14 @@ export default function Navigation() {
                   <a href="https://discord.gg/olympus" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-gray-300 hover:text-white">Discord</a>
                   <a href="https://forum.olympusgg.com" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-gray-300 hover:text-white">Forums</a>
                   <a href="https://download.olympusgg.com" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-gray-300 hover:text-white">Download</a>
+                  {onAdminClick && (
+                    <button
+                      onClick={onAdminClick}
+                      className="block w-full text-left px-3 py-2 text-green-300 hover:text-green-100 font-medium"
+                    >
+                      Admin Login
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

@@ -1,10 +1,27 @@
+'use client'
 import Navigation from '@/components/Navigation'
 import Image from 'next/image'
+import { useState } from 'react'
 
 export default function Home() {
+  const [showAdminLogin, setShowAdminLogin] = useState(false)
+  const [showAdminPanel, setShowAdminPanel] = useState(false)
+  const [loginData, setLoginData] = useState({ username: '', password: '' })
+  const [loginError, setLoginError] = useState('')
+
+  const handleAdminLogin = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (loginData.username === 'admin' && loginData.password === 'Admin123') {
+      setShowAdminLogin(false)
+      setShowAdminPanel(true)
+      setLoginError('')
+    } else {
+      setLoginError('Invalid credentials')
+    }
+  }
   return (
     <div className="min-h-screen">
-      <Navigation />
+      <Navigation onAdminClick={() => setShowAdminLogin(true)} />
       
       {/* Hero Section - Green Background */}
       <section className="bg-section-green relative">
@@ -763,11 +780,201 @@ export default function Home() {
                 <a href="#" className="text-green-200 hover:text-yellow-300 text-sm transition-colors">Privacy Policy</a>
                 <a href="#" className="text-green-200 hover:text-yellow-300 text-sm transition-colors">Terms of Service</a>
                 <a href="#" className="text-green-200 hover:text-yellow-300 text-sm transition-colors">Contact</a>
+                <button 
+                  onClick={() => setShowAdminLogin(true)}
+                  className="text-green-200 hover:text-yellow-300 text-sm transition-colors"
+                >
+                  Admin
+                </button>
               </div>
             </div>
           </div>
         </div>
       </footer>
+
+      {/* Admin Login Modal */}
+      {showAdminLogin && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+            <div className="flex justify-between items-center mb-6">
+              <h2 className="text-2xl font-bold text-green-800">Admin Login</h2>
+              <button 
+                onClick={() => setShowAdminLogin(false)}
+                className="text-gray-500 hover:text-gray-700"
+              >
+                ✕
+              </button>
+            </div>
+            <form onSubmit={handleAdminLogin} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Username
+                </label>
+                <input
+                  type="text"
+                  value={loginData.username}
+                  onChange={(e) => setLoginData({...loginData, username: e.target.value})}
+                  className="w-full px-3 py-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  required
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  value={loginData.password}
+                  onChange={(e) => setLoginData({...loginData, password: e.target.value})}
+                  className="w-full px-3 py-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  required
+                />
+              </div>
+              {loginError && (
+                <p className="text-red-600 text-sm">{loginError}</p>
+              )}
+              <div className="flex gap-3">
+                <button
+                  type="submit"
+                  className="flex-1 bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors"
+                >
+                  Login
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setShowAdminLogin(false)}
+                  className="flex-1 bg-gray-300 text-gray-700 py-2 px-4 rounded-md hover:bg-gray-400 transition-colors"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Admin Panel */}
+      {showAdminPanel && (
+        <div className="fixed inset-0 bg-black/50 flex z-50">
+          <div className="bg-white w-full h-full flex">
+            {/* Sidebar */}
+            <div className="w-64 bg-green-800 text-white p-6">
+              <div className="flex items-center mb-8">
+                <Image 
+                  src="/logo.png" 
+                  alt="DIONISY Logo"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain mr-3"
+                />
+                <h2 className="text-xl font-bold">Admin Panel</h2>
+              </div>
+              <nav className="space-y-2">
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  Dashboard
+                </a>
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  User Management
+                </a>
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  Server Status
+                </a>
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  Content Management
+                </a>
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  Analytics
+                </a>
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  Game Events
+                </a>
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  Reports
+                </a>
+                <a href="#" className="block px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                  Settings
+                </a>
+              </nav>
+              <div className="mt-auto pt-8">
+                <button
+                  onClick={() => {
+                    setShowAdminPanel(false)
+                    setLoginData({ username: '', password: '' })
+                  }}
+                  className="w-full px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors"
+                >
+                  Logout
+                </button>
+              </div>
+            </div>
+            
+            {/* Main Content Area */}
+            <div className="flex-1 p-8 bg-gray-50">
+              <div className="mb-6">
+                <h1 className="text-3xl font-bold text-gray-800">Dashboard</h1>
+                <p className="text-gray-600">Welcome to the DIONISY Admin Panel</p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <h3 className="text-sm font-medium text-gray-500">Total Players</h3>
+                  <p className="text-2xl font-bold text-green-600">1,247</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <h3 className="text-sm font-medium text-gray-500">Online Now</h3>
+                  <p className="text-2xl font-bold text-blue-600">342</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <h3 className="text-sm font-medium text-gray-500">Server Uptime</h3>
+                  <p className="text-2xl font-bold text-green-600">99.9%</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <h3 className="text-sm font-medium text-gray-500">Active Events</h3>
+                  <p className="text-2xl font-bold text-purple-600">3</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <h3 className="text-lg font-semibold mb-4 text-gray-800">Recent Activity</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center py-2 border-b">
+                      <span className="text-sm text-gray-600">New player registration</span>
+                      <span className="text-xs text-gray-500">2 min ago</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b">
+                      <span className="text-sm text-gray-600">Server maintenance completed</span>
+                      <span className="text-xs text-gray-500">1 hour ago</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b">
+                      <span className="text-sm text-gray-600">Event &apos;Dragon Hunt&apos; started</span>
+                      <span className="text-xs text-gray-500">3 hours ago</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <h3 className="text-lg font-semibold mb-4 text-gray-800">Quick Actions</h3>
+                  <div className="space-y-3">
+                    <button className="w-full text-left px-4 py-2 bg-green-100 text-green-800 rounded hover:bg-green-200 transition-colors">
+                      Send Server Message
+                    </button>
+                    <button className="w-full text-left px-4 py-2 bg-blue-100 text-blue-800 rounded hover:bg-blue-200 transition-colors">
+                      Start Maintenance Mode
+                    </button>
+                    <button className="w-full text-left px-4 py-2 bg-purple-100 text-purple-800 rounded hover:bg-purple-200 transition-colors">
+                      Create New Event
+                    </button>
+                    <button className="w-full text-left px-4 py-2 bg-orange-100 text-orange-800 rounded hover:bg-orange-200 transition-colors">
+                      View Error Logs
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

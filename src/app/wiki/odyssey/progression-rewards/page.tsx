@@ -88,7 +88,7 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Cosmetic Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• "Odyssey Novice" title</li>
+                      <li>• &quot;Odyssey Novice&quot; title</li>
                       <li>• Bronze Odyssey Badge</li>
                       <li>• Novice Emote Pack</li>
                     </ul>
@@ -114,7 +114,7 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Cosmetic Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• "Seasoned Adventurer" title</li>
+                      <li>• &quot;Seasoned Adventurer&quot; title</li>
                       <li>• Silver Odyssey Badge</li>
                       <li>• Adventurer Mount Skin</li>
                     </ul>
@@ -140,7 +140,7 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Cosmetic Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• "Odyssey Champion" title</li>
+                      <li>• &quot;Odyssey Champion&quot; title</li>
                       <li>• Gold Odyssey Badge</li>
                       <li>• Exclusive Champion Aura Effect</li>
                     </ul>
@@ -166,7 +166,7 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Cosmetic Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• "Odyssey Master" title</li>
+                      <li>• &quot;Odyssey Master&quot; title</li>
                       <li>• Platinum Odyssey Badge</li>
                       <li>• Master&apos;s Ceremonial Wings</li>
                     </ul>
@@ -192,7 +192,7 @@ export default function OdysseyProgressionRewardsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Cosmetic Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• "Odyssey Legend" title</li>
+                      <li>• &quot;Odyssey Legend&quot; title</li>
                       <li>• Diamond Odyssey Badge</li>
                       <li>• Legendary Transformation Effect</li>
                     </ul>

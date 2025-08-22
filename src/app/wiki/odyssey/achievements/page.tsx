@@ -117,7 +117,7 @@ export default function OdysseyAchievementsPage() {
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
                       <li>• Beast Slayer Medal for all hunters</li>
                       <li>• Legendary weapon cache access</li>
-                      <li>• "Protector of Olympus" title</li>
+                      <li>• &quot;Protector of Olympus&quot; title</li>
                       <li>• Beast-free zones for 14 days</li>
                     </ul>
                   </div>
@@ -146,7 +146,7 @@ export default function OdysseyAchievementsPage() {
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
                       <li>• Archaeologist certification</li>
                       <li>• Access to hidden artifact vault</li>
-                      <li>• "Relic Hunter" title</li>
+                      <li>• &quot;Relic Hunter&quot; title</li>
                       <li>• Museum of Ancient Wonders opens</li>
                     </ul>
                   </div>
@@ -173,9 +173,9 @@ export default function OdysseyAchievementsPage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Global Rewards:</h4>
                     <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                      <li>• Scholar's Insignia for contributors</li>
+                      <li>• Scholar&apos;s Insignia for contributors</li>
                       <li>• Access to forbidden knowledge</li>
-                      <li>• "Lorekeeper" title</li>
+                      <li>• &quot;Lorekeeper&quot; title</li>
                       <li>• Great Library construction completed</li>
                     </ul>
                   </div>
@@ -310,7 +310,7 @@ export default function OdysseyAchievementsPage() {
                   <h4 className="text-white font-medium mb-1">Mentor</h4>
                   <p className="text-gray-400 text-sm mb-1">Help 25 new players reach level 20</p>
                   <div className="flex justify-between text-sm">
-                    <span className="text-purple-400">Reward: Mentor's Staff</span>
+                    <span className="text-purple-400">Reward: Mentor&apos;s Staff</span>
                     <span className="text-gray-500">Points: 600</span>
                   </div>
                 </div>
@@ -319,7 +319,7 @@ export default function OdysseyAchievementsPage() {
                   <h4 className="text-white font-medium mb-1">Community Hero</h4>
                   <p className="text-gray-400 text-sm mb-1">Organize 10 server-wide events</p>
                   <div className="flex justify-between text-sm">
-                    <span className="text-purple-400">Reward: Hero's Mantle</span>
+                    <span className="text-purple-400">Reward: Hero&apos;s Mantle</span>
                     <span className="text-gray-500">Points: 2,000</span>
                   </div>
                 </div>
@@ -346,7 +346,7 @@ export default function OdysseyAchievementsPage() {
                   <h4 className="text-white font-medium mb-1">Master Artisan</h4>
                   <p className="text-gray-400 text-sm mb-1">Craft 500 legendary items</p>
                   <div className="flex justify-between text-sm">
-                    <span className="text-orange-400">Reward: Master's Forge</span>
+                    <span className="text-orange-400">Reward: Master&apos;s Forge</span>
                     <span className="text-gray-500">Points: 1,500</span>
                   </div>
                 </div>
@@ -364,7 +364,7 @@ export default function OdysseyAchievementsPage() {
                   <h4 className="text-white font-medium mb-1">Innovation Master</h4>
                   <p className="text-gray-400 text-sm mb-1">Discover 10 new recipes</p>
                   <div className="flex justify-between text-sm">
-                    <span className="text-orange-400">Reward: Inventor's Goggles</span>
+                    <span className="text-orange-400">Reward: Inventor&apos;s Goggles</span>
                     <span className="text-gray-500">Points: 800</span>
                   </div>
                 </div>

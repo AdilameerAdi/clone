@@ -30,54 +30,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/custom-features/achievements": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/achievements",
-      "dataRoute": "/wiki/custom-features/achievements.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/_not-found": {
       "initialStatus": 404,
       "experimentalBypassFor": [
@@ -103,7 +55,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/changelog": {
+    "/staff": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -116,8 +68,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/changelog",
-      "dataRoute": "/changelog.rsc",
+      "srcRoute": "/staff",
+      "dataRoute": "/staff.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/community-guides/community-pony-forest-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/community-guides/community-pony-forest-guide",
+      "dataRoute": "/wiki/community-guides/community-pony-forest-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -175,7 +151,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/staff": {
+    "/wiki/custom-features/loyalty-system": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -188,104 +164,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/staff",
-      "dataRoute": "/staff.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/custom-features/list": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/list",
-      "dataRoute": "/wiki/custom-features/list.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/community-guides/community-pony-forest-guide": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/community-guides/community-pony-forest-guide",
-      "dataRoute": "/wiki/community-guides/community-pony-forest-guide.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/bug-reports": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/bug-reports",
-      "dataRoute": "/wiki/bug-reports.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/custom-features/option-window": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/option-window",
-      "dataRoute": "/wiki/custom-features/option-window.rsc",
+      "srcRoute": "/wiki/custom-features/loyalty-system",
+      "dataRoute": "/wiki/custom-features/loyalty-system.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -319,7 +199,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/custom-features/loyalty-system": {
+    "/wiki/custom-features/npc-buffers": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -332,8 +212,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/loyalty-system",
-      "dataRoute": "/wiki/custom-features/loyalty-system.rsc",
+      "srcRoute": "/wiki/custom-features/npc-buffers",
+      "dataRoute": "/wiki/custom-features/npc-buffers.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -343,7 +223,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/custom-features/pet-filtering": {
+    "/wiki/custom-features/option-window": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -356,32 +236,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/pet-filtering",
-      "dataRoute": "/wiki/custom-features/pet-filtering.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/custom-features": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features",
-      "dataRoute": "/wiki/custom-features.rsc",
+      "srcRoute": "/wiki/custom-features/option-window",
+      "dataRoute": "/wiki/custom-features/option-window.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -415,7 +271,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/custom-features/pet-upgrading": {
+    "/wiki/custom-features/overview": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -428,8 +284,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/pet-upgrading",
-      "dataRoute": "/wiki/custom-features/pet-upgrading.rsc",
+      "srcRoute": "/wiki/custom-features/overview",
+      "dataRoute": "/wiki/custom-features/overview.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/custom-features/raid-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/custom-features/raid-reports",
+      "dataRoute": "/wiki/custom-features/raid-reports.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/custom-features": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/custom-features",
+      "dataRoute": "/wiki/custom-features.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -511,54 +415,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/drops/bosses": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/drops/bosses",
-      "dataRoute": "/wiki/drops/bosses.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/custom-features/wings-swapper": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/wings-swapper",
-      "dataRoute": "/wiki/custom-features/wings-swapper.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/wiki/drops/items/alchemists-beverage": {
       "experimentalBypassFor": [
         {
@@ -583,7 +439,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/custom-features/overview": {
+    "/wiki/drops/bosses": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -596,8 +452,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/overview",
-      "dataRoute": "/wiki/custom-features/overview.rsc",
+      "srcRoute": "/wiki/drops/bosses",
+      "dataRoute": "/wiki/drops/bosses.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -622,30 +478,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/wiki/drops/items",
       "dataRoute": "/wiki/drops/items.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/custom-features/npc-buffers": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/npc-buffers",
-      "dataRoute": "/wiki/custom-features/npc-buffers.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -727,30 +559,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/guides/farming": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/guides/farming",
-      "dataRoute": "/wiki/guides/farming.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/wiki/guides/leveling/combat1-90": {
       "experimentalBypassFor": [
         {
@@ -775,7 +583,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/guides/leveling": {
+    "/wiki/guides/farming": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -788,8 +596,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/guides/leveling",
-      "dataRoute": "/wiki/guides/leveling.rsc",
+      "srcRoute": "/wiki/guides/farming",
+      "dataRoute": "/wiki/guides/farming.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -799,7 +607,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/guides/pvp": {
+    "/changelog": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -812,8 +620,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/guides/pvp",
-      "dataRoute": "/wiki/guides/pvp.rsc",
+      "srcRoute": "/changelog",
+      "dataRoute": "/changelog.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -823,7 +631,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/information/currency": {
+    "/wiki/custom-features/achievements": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -836,80 +644,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/information/currency",
-      "dataRoute": "/wiki/information/currency.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/information/specialists/cards": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/information/specialists/cards",
-      "dataRoute": "/wiki/information/specialists/cards.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/information/shells": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/information/shells",
-      "dataRoute": "/wiki/information/shells.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/information/stats": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/information/stats",
-      "dataRoute": "/wiki/information/stats.rsc",
+      "srcRoute": "/wiki/custom-features/achievements",
+      "dataRoute": "/wiki/custom-features/achievements.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -943,7 +679,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/custom-features/raid-reports": {
+    "/wiki/custom-features/pet-filtering": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -956,8 +692,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/custom-features/raid-reports",
-      "dataRoute": "/wiki/custom-features/raid-reports.rsc",
+      "srcRoute": "/wiki/custom-features/pet-filtering",
+      "dataRoute": "/wiki/custom-features/pet-filtering.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -967,7 +703,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/odyssey/calendar": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -980,8 +716,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/odyssey/calendar",
-      "dataRoute": "/wiki/odyssey/calendar.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/information/stats": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/information/stats",
+      "dataRoute": "/wiki/information/stats.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/information/specialists/cards": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/information/specialists/cards",
+      "dataRoute": "/wiki/information/specialists/cards.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1039,7 +823,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/odyssey": {
+    "/wiki/information/shells": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1052,8 +836,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/odyssey",
-      "dataRoute": "/wiki/odyssey.rsc",
+      "srcRoute": "/wiki/information/shells",
+      "dataRoute": "/wiki/information/shells.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/information/currency": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/information/currency",
+      "dataRoute": "/wiki/information/currency.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1087,6 +895,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/wiki/custom-features/wings-swapper": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/custom-features/wings-swapper",
+      "dataRoute": "/wiki/custom-features/wings-swapper.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/wiki/odyssey/quests": {
       "experimentalBypassFor": [
         {
@@ -1111,7 +943,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/odyssey/rewards": {
+    "/wiki/custom-features/pet-upgrading": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1124,80 +956,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/odyssey/rewards",
-      "dataRoute": "/wiki/odyssey/rewards.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/qol/mass-crafting": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/qol/mass-crafting",
-      "dataRoute": "/wiki/qol/mass-crafting.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki",
-      "dataRoute": "/wiki.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/wiki/qol/mass-refiners": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/qol/mass-refiners",
-      "dataRoute": "/wiki/qol/mass-refiners.rsc",
+      "srcRoute": "/wiki/custom-features/pet-upgrading",
+      "dataRoute": "/wiki/custom-features/pet-upgrading.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1231,7 +991,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/wiki/qol/snack-production": {
+    "/wiki/odyssey": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1244,8 +1004,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/wiki/qol/snack-production",
-      "dataRoute": "/wiki/qol/snack-production.rsc",
+      "srcRoute": "/wiki/odyssey",
+      "dataRoute": "/wiki/odyssey.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/custom-features/list": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/custom-features/list",
+      "dataRoute": "/wiki/custom-features/list.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/odyssey/rewards": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/odyssey/rewards",
+      "dataRoute": "/wiki/odyssey/rewards.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1270,6 +1078,198 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/wiki/rules",
       "dataRoute": "/wiki/rules.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/qol/snack-production": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/qol/snack-production",
+      "dataRoute": "/wiki/qol/snack-production.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/odyssey/calendar": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/odyssey/calendar",
+      "dataRoute": "/wiki/odyssey/calendar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/qol/mass-refiners": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/qol/mass-refiners",
+      "dataRoute": "/wiki/qol/mass-refiners.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki",
+      "dataRoute": "/wiki.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/qol/mass-crafting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/qol/mass-crafting",
+      "dataRoute": "/wiki/qol/mass-crafting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/guides/leveling": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/guides/leveling",
+      "dataRoute": "/wiki/guides/leveling.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/guides/pvp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/guides/pvp",
+      "dataRoute": "/wiki/guides/pvp.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/wiki/bug-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/wiki/bug-reports",
+      "dataRoute": "/wiki/bug-reports.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
